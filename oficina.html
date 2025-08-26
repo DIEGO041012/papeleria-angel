@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Papelería Angelitos - Oficina</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f8f8;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    .custom-shadow {
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+
+<!-- NAVBAR -->
+<header class="bg-white custom-shadow fixed w-full z-10 top-0">
+        <nav class="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <!-- Logo de Papelería Angelitos -->
+                <img src="img/logo3.jpeg" alt="Logo Papelería Angelitos" class="h-10 w-10 object-contain rounded-full">
+                <a href="#" class="text-2xl font-bold text-gray-900 rounded-lg p-2 transition duration-300 ease-in-out hover:bg-gray-100">Papelería Angelitos</a>
+            </div>
+            <div class="mt-4 md:mt-0 flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-lg font-medium items-center">
+
+    <!-- Inicio -->
+            <a href="/index.html" class="text-gray-700 hover:text-[#D15E2B] transition duration-300 ease-in-out rounded-lg p-2 hover:bg-[#EFB84F]">
+                Inicio
+            </a>
+
+            <!-- Oficina -->
+            <div class="relative group">
+                <button class="text-gray-700 hover:text-[#D15E2B] transition duration-300 ease-in-out rounded-lg p-2 hover:bg-[#EFB84F]">
+                    Oficina
+                </button>
+                <div class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transform -translate-y-2 transition-all duration-300 z-50">
+                    <a href="/oficina.html" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Oficina</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Tijera profesional</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Porta carné yoyo</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Perforada</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Gancho de cosedora</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Resmas</a>
+                </div>
+            </div>
+
+            <!-- Estudiantil -->
+            <div class="relative group">
+                <button class="text-gray-700 hover:text-[#D15E2B] transition duration-300 ease-in-out rounded-lg p-2 hover:bg-[#EFB84F]">
+                    Estudiantil
+                </button>
+                <div class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transform -translate-y-2 group-hover:translate-y-0 transition-all duration-300 z-50">
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Cuadernos</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Mochilas</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Calculadora/a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Carpeta escolar</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Lápices y Bolígrafos</a>
+                </div>
+            </div>
+
+            <!-- Arte -->
+            <div class="relative group">
+                <button class="text-gray-700 hover:text-[#D15E2B] transition duration-300 ease-in-out rounded-lg p-2 hover:bg-[#EFB84F]">
+                    Arte
+                </button>
+                <div class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transform -translate-y-2 group-hover:translate-y-0 transition-all duration-300 z-50">
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Pinturas</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Pinceles</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Lienzos</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Acuarela</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Lettering</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Durexs</a>
+                </div>
+            </div>
+
+            <!-- Fiesta -->
+            <div class="relative group">
+                <button class="text-gray-700 hover:text-[#D15E2B] transition duration-300 ease-in-out rounded-lg p-2 hover:bg-[#EFB84F]">
+                    Fiesta
+                </button>
+                <div class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transform -translate-y-2 group-hover:translate-y-0 transition-all duration-300 z-50">
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Decoraciones</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Globos</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Velas</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">onfetti</a>
+                    <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-[#EFB84F] hover:text-[#D15E2B]">Lluvia de sobres</a>
+                </div>
+            </div>
+
+            <!-- Search Input with Icon -->
+            <div class="relative flex items-center">
+                <input type="text" placeholder="Buscar productos..." class="pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#D15E2B] text-base">
+                <svg class="absolute left-3 h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                </svg>
+            </div>
+
+            <!-- Cart Icon with Notification -->
+            <button id="open-cart-btn" class="relative text-gray-700 hover:text-pink-600 transition duration-300 ease-in-out rounded-lg p-2 hover:bg-pink-50 flex items-center">
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+                </svg>
+                <span id="cart-count" class="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">0</span>
+            </button>
+        </div>
+
+        </nav>
+    </header>
+
+<!-- BANNER -->
+<section id="inicio" class="relative bg-[url('img/bannerofice.jpg')] bg-cover bg-center text-white min-h-screen-minus-header flex items-center pt-24 md:pt-32">
+  <div class="container mx-auto px-4 relative z-10 flex flex-col md:flex-row items-center justify-between">
+    <div class="md:w-1/2 text-center md:text-left mb-12 md:mb-0">
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 animate-pulse text-[#29A877]">
+        OFICINA <br class="hidden md:block">
+      </h1>
+      <p class="text-lg md:text-3xl mb-4 text-[#D15E2B]">
+        Productividad y estilo para tu espacio
+      </p>
+      <p class="text-lg md:text-xl mb-4 whitespace-nowrap text-[#000000]">
+        Encuentra accesorios y tecnología para que tu día a día sea más eficiente.
+      </p>
+      <a href="#productos" class="inline-block bg-white text-[#29A877] hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 hover:scale-105">
+        Explorar Productos
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- PRODUCTOS CON FILTRO -->
+<section id="productos" class="py-16 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex flex-col md:flex-row gap-10">
+
+      <!-- Filtro -->
+      <!-- FILTRO CATEGORÍAS -->
+    <aside class="bg-white p-6 rounded-xl shadow w-full md:w-1/4 mb-8 md:mb-0">
+        <h3 class="text-xl font-bold mb-4 text-gray-800">Filtrar por</h3>
+        <ul id="filtros-categoria" class="space-y-2">
+            <li data-categoria="Todos" class="cursor-pointer px-4 py-2 bg-gray-100 rounded hover:bg-[#EFB84F] hover:text-[#D15E2B] transition">Todos</li>
+            <li data-categoria="Oficina" class="cursor-pointer px-4 py-2 bg-gray-100 rounded hover:bg-[#EFB84F] hover:text-[#D15E2B] transition">Oficina</li>
+            <li data-categoria="Estudiantil" class="cursor-pointer px-4 py-2 bg-gray-100 rounded hover:bg-[#EFB84F] hover:text-[#D15E2B] transition">Estudiantil</li>
+            <li data-categoria="Arte" class="cursor-pointer px-4 py-2 bg-gray-100 rounded hover:bg-[#EFB84F] hover:text-[#D15E2B] transition">Arte</li>
+            <li data-categoria="Tecnología" class="cursor-pointer px-4 py-2 bg-gray-100 rounded hover:bg-[#EFB84F] hover:text-[#D15E2B] transition">Tecnología</li>
+        </ul>
+    </aside>
+
+      <!-- Productos -->
+      <div class="w-full md:w-3/4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Producto -->
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg">
+          <img src="img/cosedora.jpg" alt="Cosedora" class="w-full h-48 object-contain mb-4">
+          <h3 class="text-lg font-bold mb-1">Cosedora</h3>
+          <p class="text-sm text-gray-500 mb-2">$9.000</p>
+          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Comprar</button>
+        </div>
+
+        <!-- Producto -->
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg">
+          <img src="img/tijeras1.jpeg" alt="Tijeras" class="w-full h-48 object-contain mb-4">
+          <h3 class="text-lg font-bold mb-1">Tijeras profesionales</h3>
+          <p class="text-sm text-gray-500 mb-2">$20.000</p>
+          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Comprar</button>
+        </div>
+
+        <!-- Producto -->
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg">
+          <img src="img/yoyo1.jpg" alt="Yoyo" class="w-full h-48 object-contain mb-4">
+          <h3 class="text-lg font-bold mb-1">Porta carnet Yoyo</h3>
+          <p class="text-sm text-gray-500 mb-2">$3.000</p>
+          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Comprar</button>
+        </div>
+
+        <!-- Producto -->
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg">
+          <img src="img/cuaderno1.jpeg" alt="Perforadora" class="w-full h-48 object-contain mb-4">
+          <h3 class="text-lg font-bold mb-1">Perforadora</h3>
+          <p class="text-sm text-gray-500 mb-2">$10.000</p>
+          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Comprar</button>
+        </div>
+
+        <!-- Producto -->
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg">
+          <img src="img/impresora1.jpeg" alt="Grapas" class="w-full h-48 object-contain mb-4">
+          <h3 class="text-lg font-bold mb-1">Grapas</h3>
+          <p class="text-sm text-gray-500 mb-2">$5.000</p>
+          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Comprar</button>
+        </div>
+
+        <!-- Producto -->
+        <div class="bg-white rounded-xl p-4 shadow hover:shadow-lg">
+          <img src="img/papel1.jpeg" alt="Resmas" class="w-full h-48 object-contain mb-4">
+          <h3 class="text-lg font-bold mb-1">Resmas</h3>
+          <p class="text-sm text-gray-500 mb-2">$25.000</p>
+          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Comprar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-white text-center py-6 border-t">
+  <p class="text-gray-600">Papelería Angelitos © 2025 - Todos los derechos reservados.</p>
+</footer>
+<!-- Simple JavaScript for sticky header, product modal, and cart functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.querySelector('header');
+            if (header) {
+                document.body.style.paddingTop = header.offsetHeight + 'px';
+            }
+
+            // Smooth scrolling for navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Product Modal Elements
+            const productModal = document.getElementById('product-modal');
+            const productModalContent = document.getElementById('modal-content');
+            const closeProductModalBtn = document.getElementById('close-product-modal-btn');
+            const viewProductBtns = document.querySelectorAll('.view-product-btn');
+            const modalProductName = document.getElementById('modal-product-name');
+            const modalProductDescription = document.getElementById('modal-product-description');
+            const modalProductPrice = document.getElementById('modal-product-price');
+            const modalProductImage = document.getElementById('modal-product-image');
+            const addToCartBtn = document.getElementById('add-to-cart-btn');
+
+            // Cart Modal Elements
+            const cartModal = document.getElementById('cart-modal');
+            const cartModalContent = document.getElementById('cart-modal-content');
+            const closeCartModalBtn = document.getElementById('close-cart-modal-btn');
+            const openCartBtn = document.getElementById('open-cart-btn');
+            const cartCountSpan = document.getElementById('cart-count');
+            const cartItemsContainer = document.getElementById('cart-items-container');
+            const cartTotalSpan = document.getElementById('cart-total');
+            const emptyCartMessage = document.getElementById('empty-cart-message');
+
+            let cartItems = []; // Array to store products in the cart
+
+            // Function to format currency (Colombian Pesos)
+            function formatCurrency(amount) {
+                return new Intl.NumberFormat('es-CO', {
+                    style: 'currency',
+                    currency: 'COP',
+                    minimumFractionDigits: 0
+                }).format(amount);
+            }
+
+            // Function to show any modal
+            function showModal(modalElement, modalContentElement) {
+                modalElement.classList.remove('hidden');
+                setTimeout(() => {
+                    modalContentElement.classList.remove('scale-95', 'opacity-0');
+                    modalContentElement.classList.add('scale-100', 'opacity-100');
+                }, 10);
+            }
+
+            // Function to hide any modal
+            function hideModal(modalElement, modalContentElement) {
+                modalContentElement.classList.remove('scale-100', 'opacity-100');
+                modalContentElement.classList.add('scale-95', 'opacity-0');
+                setTimeout(() => {
+                    modalElement.classList.add('hidden');
+                }, 300);
+            }
+
+            // Function to show the product details modal
+            function showProductDetails(productData) { // Changed to accept an object
+                modalProductName.textContent = productData.name;
+                modalProductDescription.textContent = productData.description;
+                modalProductPrice.textContent = formatCurrency(productData.price);
+                modalProductImage.src = productData.image;
+
+                // Store product data in the "Añadir al Carrito" button itself
+                addToCartBtn.dataset.name = productData.name;
+                addToCartBtn.dataset.price = productData.price;
+                addToCartBtn.dataset.image = productData.image;
+
+                showModal(productModal, productModalContent);
+            }
+
+            // Function to add item to cart
+            function addToCart(product) {
+                const existingProductIndex = cartItems.findIndex(item => item.name === product.name);
+
+                if (existingProductIndex > -1) {
+                    cartItems[existingProductIndex].quantity += 1;
+                } else {
+                    cartItems.push({ ...product,
+                        quantity: 1
+                    });
+                }
+                updateCartDisplay();
+                updateCartCountNotification();
+                hideModal(productModal, productModalContent); // Close product detail modal after adding
+                // Optionally show a quick notification that item was added
+            }
+
+            // Function to remove item from cart
+            function removeItemFromCart(productName) {
+                cartItems = cartItems.filter(item => item.name !== productName);
+                updateCartDisplay();
+                updateCartCountNotification();
+            }
+
+            // Function to update the cart display in the modal
+            function updateCartDisplay() {
+                cartItemsContainer.innerHTML = ''; // Clear current items
+                let total = 0;
+
+                if (cartItems.length === 0) {
+                    emptyCartMessage.classList.remove('hidden');
+                } else {
+                    emptyCartMessage.classList.add('hidden');
+                    cartItems.forEach(item => {
+                        const itemElement = document.createElement('div');
+                        itemElement.classList.add('flex', 'items-center', 'justify-between', 'p-3', 'bg-gray-100', 'rounded-lg', 'shadow-sm');
+                        itemElement.innerHTML = `
+                            <div class="flex items-center space-x-4">
+                                <img src="${item.image}" alt="${item.name}" class="w-16 h-16 object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/64x64/F0F0F0/000000?text=Prod';"/>
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">${item.name}</h4>
+                                    <p class="text-sm text-gray-600">Cantidad: ${item.quantity}</p>
+                                    <p class="text-sm font-medium text-pink-500">${formatCurrency(item.price * item.quantity)}</p>
+                                </div>
+                            </div>
+                            <button data-name="${item.name}" class="remove-item-btn bg-red-500 text-white text-sm font-bold py-1 px-3 rounded-full hover:bg-red-600 transition duration-200">Eliminar</button>
+                        `;
+                        cartItemsContainer.appendChild(itemElement);
+                        total += item.price * item.quantity;
+                    });
+                }
+
+                cartTotalSpan.textContent = formatCurrency(total);
+
+                // Add event listeners for new remove buttons
+                document.querySelectorAll('.remove-item-btn').forEach(button => {
+                    button.addEventListener('click', function() {
+                        const productName = this.dataset.name;
+                        removeItemFromCart(productName);
+                    });
+                });
+            }
+
+            // Function to update the cart count notification in the header
+            function updateCartCountNotification() {
+                const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
+                cartCountSpan.textContent = totalItems;
+                if (totalItems > 0) {
+                    cartCountSpan.classList.remove('hidden');
+                } else {
+                    cartCountSpan.classList.add('hidden');
+                }
+            }
+
+            // Event Listeners for Product Modal
+            closeProductModalBtn.addEventListener('click', () => hideModal(productModal, productModalContent));
+            productModal.addEventListener('click', (event) => {
+                if (event.target === productModal) {
+                    hideModal(productModal, productModalContent);
+                }
+            });
+            viewProductBtns.forEach(button => {
+                button.addEventListener('click', function() {
+                    const productData = { // Create an object from dataset
+                        name: this.dataset.name,
+                        price: parseFloat(this.dataset.price), // Convert price to number
+                        description: this.dataset.description,
+                        image: this.dataset.image
+                    };
+                    showProductDetails(productData);
+                });
+            });
+            addToCartBtn.addEventListener('click', function() {
+                const productToAdd = {
+                    name: this.dataset.name,
+                    price: parseFloat(this.dataset.price),
+                    image: this.dataset.image
+                };
+                addToCart(productToAdd);
+            });
+
+            // Event Listeners for Cart Modal
+            openCartBtn.addEventListener('click', () => {
+                updateCartDisplay(); // Refresh cart content before opening
+                showModal(cartModal, cartModalContent);
+            });
+            closeCartModalBtn.addEventListener('click', () => hideModal(cartModal, cartModalContent));
+            cartModal.addEventListener('click', (event) => {
+                if (event.target === cartModal) {
+                    hideModal(cartModal, cartModalContent);
+                }
+            });
+
+            // Initial update of cart count when page loads
+            updateCartCountNotification();
+        });
+    </script>
+</body>
+</html>
